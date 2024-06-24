@@ -59,7 +59,7 @@ function RightBar({ item, setBody, setFace, setPoseOuter, setCharacterProp }) {
         "toShow": true
     }
 ]`)
-    }, [costume, facialExpression]);
+    }, [costume, facialExpression, position, pose]);
 
     const copyToClipboard = () => {
         navigator.clipboard.writeText(codeBlock)

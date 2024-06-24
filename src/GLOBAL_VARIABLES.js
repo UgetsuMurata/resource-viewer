@@ -77,6 +77,66 @@ var images = {
                     ]
                 }
             ]
+        },
+        {
+            NAME: "Nanay",
+            code: "nanay",
+            POSES: [
+                {
+                    POSE_NUMBER: 1,
+                    BODIES: [
+                        {
+                            src: require("./res/characters/nanay/sprite_nanay1_b_home.png"),
+                            alt: "Home Clothes",
+                            code: "home"
+                        },
+                        {
+                            src: require("./res/characters/nanay/sprite_nanay1_b_casual.png"),
+                            alt: "Casual",
+                            code: "casual"
+                        }
+                    ],
+                    FACES: [
+                        {
+                            src: require("./res/characters/nanay/sprite_nanay1_f_angry.png"),
+                            alt: "Angry",
+                            code: "angry"
+                        },
+                        {
+                            src: require("./res/characters/nanay/sprite_nanay1_f_confused.png"),
+                            alt: "Confused",
+                            code: "confused"
+                        },
+                        {
+                            src: require("./res/characters/nanay/sprite_nanay1_f_talking.png"),
+                            alt: "Talking v1",
+                            code: "talking"
+                        },
+                        {
+                            src: require("./res/characters/nanay/sprite_nanay1_f_talking2.png"),
+                            alt: "Talking v2",
+                            code: "talking"
+                        }
+                    ]
+                },
+                {
+                    POSE_NUMBER: 2,
+                    BODIES: [
+                        {
+                            src: require("./res/characters/nanay/sprite_nanay2_b_casual.png"),
+                            alt: "Casual",
+                            code: "casual"
+                        }
+                    ],
+                    FACES: [
+                        {
+                            src: require("./res/characters/nanay/sprite_nanay2_f_reminiscing.png"),
+                            alt: "Reminiscing",
+                            code: "reminiscing"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

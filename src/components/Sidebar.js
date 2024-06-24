@@ -9,10 +9,7 @@ export default function Sidebar({ children, setItem }) {
             <div className={"h-full w-60 fixed shadow-xl bg-white pt-20 z-10"}>
                 {
                     images.CHARACTERS.map((item) => {
-                        {
-                            setItem(item);
-                        }
-                        return <SidebarItems itemName={item.NAME} itemLink={item} />;
+                        return <SidebarItems itemName={item.NAME} itemLink={item} setItem={setItem}/>;
                     })
                 }
             </div>
@@ -23,10 +20,11 @@ export default function Sidebar({ children, setItem }) {
     )
 }
 
-function SidebarItems({ itemName }) {
+function SidebarItems({ itemName, itemLink, setItem }) {
     return (
         <div
-            className={'w-full p-2 ps-10 text-base text-black font-quicksand hover:bg-slate-100 cursor-pointer'}>
+            className={'w-full p-2 ps-10 text-base text-black font-quicksand hover:bg-slate-100 cursor-pointer'}
+            onClick={()=>setItem(itemLink)}>
             {itemName}
         </div>
     )
