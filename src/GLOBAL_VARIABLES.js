@@ -28,6 +28,10 @@ var images = {
                     ],
                     FACES: [
                         {
+                            src: require("./res/characters/mc/sprite_mc1_f_amazed.png"),
+                            alt: "Amazed",
+                            code: "amazed"
+                        },{
                             src: require("./res/characters/mc/sprite_mc1_f_compassion.png"),
                             alt: "Compassion",
                             code: "compassion"
@@ -38,6 +42,21 @@ var images = {
                             code: "confused"
                         },
                         {
+                            src: require("./res/characters/mc/sprite_mc1_f_curious.png"),
+                            alt: "Curious",
+                            code: "curious"
+                        },
+                        {
+                            src: require("./res/characters/mc/sprite_mc1_f_embarassed.png"),
+                            alt: "Embarassed",
+                            code: "embarassed"
+                        },
+                        {
+                            src: require("./res/characters/mc/sprite_mc1_f_nervous.png"),
+                            alt: "Nervous",
+                            code: "nervous"
+                        },
+                        {
                             src: require("./res/characters/mc/sprite_mc1_f_normal.png"),
                             alt: "Normal",
                             code: "normal"
@@ -46,6 +65,16 @@ var images = {
                             src: require("./res/characters/mc/sprite_mc1_f_sleepy.png"),
                             alt: "Sleepy",
                             code: "sleepy"
+                        },
+                        {
+                            src: require("./res/characters/mc/sprite_mc1_f_smile.png"),
+                            alt: "Smile",
+                            code: "smile"
+                        },
+                        {
+                            src: require("./res/characters/mc/sprite_mc1_f_smirk.png"),
+                            alt: "Smirk",
+                            code: "smirk"
                         }
                     ]
                 },
@@ -66,13 +95,23 @@ var images = {
                     FACES: [
                         {
                             src: require("./res/characters/mc/sprite_mc2_f_thinking.png"),
-                            alt: "Thinking v1",
+                            alt: "Thinking",
                             code: "thinking"
                         },
                         {
-                            src: require("./res/characters/mc/sprite_mc2_f_thinking2.png"),
-                            alt: "Thinking v2",
-                            code: "thinking2"
+                            src: require("./res/characters/mc/sprite_mc2_f_thinking_closed_eyes.png"),
+                            alt: "Thinking (Closed Eyes)",
+                            code: "thinking_closed_eyes"
+                        },
+                        {
+                            src: require("./res/characters/mc/sprite_mc2_f_thinking_open_eyes.png"),
+                            alt: "Thinking (Open Eyes)",
+                            code: "thinking_open_eyes"
+                        },
+                        {
+                            src: require("./res/characters/mc/sprite_mc2_f_thinking_smile.png"),
+                            alt: "Thinking (Smile)",
+                            code: "thinking_smile"
                         }
                     ]
                 }
@@ -86,14 +125,24 @@ var images = {
                     POSE_NUMBER: 1,
                     BODIES: [
                         {
-                            src: require("./res/characters/nanay/sprite_nanay1_b_home.png"),
-                            alt: "Home Clothes",
-                            code: "home"
+                            src: require("./res/characters/nanay/sprite_nanay1_b_casual_reminisce.png"),
+                            alt: "Casual (Reminisce)",
+                            code: "casual_reminisce"
                         },
                         {
                             src: require("./res/characters/nanay/sprite_nanay1_b_casual.png"),
                             alt: "Casual",
                             code: "casual"
+                        },
+                        {
+                            src: require("./res/characters/nanay/sprite_nanay1_b_home_arms.png"),
+                            alt: "Home (Arms)",
+                            code: "home_arms"
+                        },
+                        {
+                            src: require("./res/characters/nanay/sprite_nanay1_b_home.png"),
+                            alt: "Home Clothes",
+                            code: "home"
                         }
                     ],
                     FACES: [
@@ -103,9 +152,34 @@ var images = {
                             code: "angry"
                         },
                         {
+                            src: require("./res/characters/nanay/sprite_nanay1_f_compassion.png"),
+                            alt: "Compassion",
+                            code: "compassion"
+                        },
+                        {
                             src: require("./res/characters/nanay/sprite_nanay1_f_confused.png"),
                             alt: "Confused",
                             code: "confused"
+                        },
+                        {
+                            src: require("./res/characters/nanay/sprite_nanay1_f_laugh.png"),
+                            alt: "Laugh",
+                            code: "laugh"
+                        },
+                        {
+                            src: require("./res/characters/nanay/sprite_nanay1_f_normal.png"),
+                            alt: "Normal",
+                            code: "normal"
+                        },
+                        {
+                            src: require("./res/characters/nanay/sprite_nanay1_f_reminiscing.png"),
+                            alt: "Reminiscing",
+                            code: "reminiscing"
+                        },
+                        {
+                            src: require("./res/characters/nanay/sprite_nanay1_f_smile.png"),
+                            alt: "Smile",
+                            code: "smile"
                         },
                         {
                             src: require("./res/characters/nanay/sprite_nanay1_f_talking.png"),
@@ -116,23 +190,6 @@ var images = {
                             src: require("./res/characters/nanay/sprite_nanay1_f_talking2.png"),
                             alt: "Talking v2",
                             code: "talking2"
-                        }
-                    ]
-                },
-                {
-                    POSE_NUMBER: 2,
-                    BODIES: [
-                        {
-                            src: require("./res/characters/nanay/sprite_nanay2_b_casual.png"),
-                            alt: "Casual",
-                            code: "casual"
-                        }
-                    ],
-                    FACES: [
-                        {
-                            src: require("./res/characters/nanay/sprite_nanay2_f_reminiscing.png"),
-                            alt: "Reminiscing",
-                            code: "reminiscing"
                         }
                     ]
                 }
@@ -214,11 +271,6 @@ var images = {
                             src: require("./res/characters/jaxon/sprite_jaxon1_f_normal.png"),
                             alt: "Normal",
                             code: "normal"
-                        },
-                        {
-                            src: require("./res/characters/jaxon/sprite_jaxon1_f_talking.png"),
-                            alt: "Talking",
-                            code: "talking"
                         }
                     ]
                 }
@@ -270,29 +322,29 @@ var images = {
                     POSE_NUMBER: 1,
                     BODIES: [
                         {
-                            src: require("./res/characters/pork_vendor/sprite_jaxon1_b_uniform.png"),
-                            alt: "Uniform",
-                            code: "uniform"
+                            src: require("./res/characters/pork_vendor/sprite_pork_vendor1_b_apron.png"),
+                            alt: "Apron",
+                            code: "apron"
                         }
                     ],
                     FACES: [
                         {
-                            src: require("./res/characters/pork_vendor/sprite_jaxon1_f_compassion.png"),
+                            src: require("./res/characters/pork_vendor/sprite_pork_vendor1_f_compassion.png"),
                             alt: "Compassion",
                             code: "compassion"
                         },
                         {
-                            src: require("./res/characters/pork_vendor/sprite_jaxon1_f_confused.png"),
+                            src: require("./res/characters/pork_vendor/sprite_pork_vendor1_f_confused.png"),
                             alt: "Confused",
                             code: "confused"
                         },
                         {
-                            src: require("./res/characters/pork_vendor/sprite_jaxon1_f_normal.png"),
+                            src: require("./res/characters/pork_vendor/sprite_pork_vendor1_f_normal.png"),
                             alt: "Normal",
                             code: "normal"
                         },
                         {
-                            src: require("./res/characters/pork_vendor/sprite_jaxon1_f_talking.png"),
+                            src: require("./res/characters/pork_vendor/sprite_pork_vendor1_f_talking.png"),
                             alt: "Talking",
                             code: "talking"
                         }
