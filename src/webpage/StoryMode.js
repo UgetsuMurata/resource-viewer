@@ -11,7 +11,7 @@ export default function StoryMode() {
     const [characterProp, setCharacterProp] = useState(null);
 
     return (
-        <Sidebar setItem={setItem}>
+        <Sidebar setItem={setItem} resetValues={[setBody, setFace, setPose, setCharacterProp]}>
             <div className="flex flex-grow">
                 <div className="flex-grow p-4 flex justify-center items-center relative">
                     <div className="relative h-full w-full flex justify-center items-center me-96">
@@ -87,7 +87,7 @@ function RightBar({ item, setBody, setFace, setPoseOuter, setCharacterProp }) {
                     <p className='text-sm'>Pose</p>
                     {
                         item.POSES.map((item, index) => {
-                            return <NumberValueHolder key={index} number={index + 1} valueSetter={setPose} value={index} activeValue={pose} />;
+                            return <NumberValueHolder key={index} number={index + 1} lowerValueResetter={[setCostume, setFacialExpression]} valueSetter={setPose} value={index} activeValue={pose} />;
                         })
                     }
                 </div>
@@ -123,10 +123,21 @@ function RightBar({ item, setBody, setFace, setPoseOuter, setCharacterProp }) {
     );
 }
 
-function NumberValueHolder({ number, valueSetter, value, activeValue }) {
+function NumberValueHolder({ number, lowerValueResetter, valueSetter, value, activeValue }) {
     return (
         <div className={'min-w-8 text-xs h-8 p-2 mb-2 ' + (activeValue == value ? "bg-yellow-100" : "bg-yellow-200") + ' text-black me-2 rounded-md align-middle inline-flex items-center justify-center cursor-pointer hover:brightness-90'}
-            onClick={() => valueSetter(value)}>
+            onClick={() => {
+                valueSetter(value);
+                if (Array.isArray(lowerValueResetter)) {  // Check if it's an array of functions
+                    lowerValueResetter.forEach(resetFunc => {
+                        if (typeof resetFunc === 'function') {
+                            resetFunc(0);
+                        }
+                    });
+                } else if (typeof lowerValueResetter === 'function') {  // Check if it's a single function
+                    lowerValueResetter(0);
+                }
+                }}>
             {number}
         </div>
     );
