@@ -4,6 +4,158 @@ var webpages = {
 var images = {
     CHARACTERS: [
         {
+            NAME: "Aling Isabel",
+            code: "aling_isabel",
+            POSES: [
+                {
+                    POSE_NUMBER: 1,
+                    BODIES: [
+                        {
+                            src: require("./res/characters/aling_isabel/sprite_aling_isabel1_b_normal.png"),
+                            alt: "Normal",
+                            code: "normal"
+                        }
+                    ],
+                    FACES: [
+                        {
+                            src: require("./res/characters/aling_isabel/sprite_aling_isabel1_f_compassion.png"),
+                            alt: "Compassion",
+                            code: "compassion"
+                        },
+                        {
+                            src: require("./res/characters/aling_isabel/sprite_aling_isabel1_f_confused.png"),
+                            alt: "Confused",
+                            code: "confused"
+                        },
+                        {
+                            src: require("./res/characters/aling_isabel/sprite_aling_isabel1_f_normal.png"),
+                            alt: "Normal",
+                            code: "normal"
+                        },
+                        {
+                            src: require("./res/characters/aling_isabel/sprite_aling_isabel1_f_talking.png"),
+                            alt: "Talking",
+                            code: "talking"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            NAME: "Eian",
+            code: "eian",
+            POSES: [
+                {
+                    POSE_NUMBER: 1,
+                    BODIES: [
+                        {
+                            src: require("./res/characters/eian/sprite_eian1_b_uniform.png"),
+                            alt: "Uniform",
+                            code: "uniform"
+                        }
+                    ],
+                    FACES: [
+                        {
+                            src: require("./res/characters/eian/sprite_eian1_f_compassion.png"),
+                            alt: "Compassion",
+                            code: "compassion"
+                        },
+                        {
+                            src: require("./res/characters/eian/sprite_eian1_f_confused.png"),
+                            alt: "Confused",
+                            code: "confused"
+                        },
+                        {
+                            src: require("./res/characters/eian/sprite_eian1_f_normal.png"),
+                            alt: "Normal",
+                            code: "normal"
+                        },
+                        {
+                            src: require("./res/characters/eian/sprite_eian1_f_talking.png"),
+                            alt: "Talking",
+                            code: "talking"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            NAME: "Jaxon",
+            code: "jaxon",
+            POSES: [
+                {
+                    POSE_NUMBER: 1,
+                    BODIES: [
+                        {
+                            src: require("./res/characters/jaxon/sprite_jaxon1_b_uniform.png"),
+                            alt: "Uniform",
+                            code: "uniform"
+                        }
+                    ],
+                    FACES: [
+                        {
+                            src: require("./res/characters/jaxon/sprite_jaxon1_f_compassion.png"),
+                            alt: "Compassion",
+                            code: "compassion"
+                        },
+                        {
+                            src: require("./res/characters/jaxon/sprite_jaxon1_f_confused.png"),
+                            alt: "Confused",
+                            code: "confused"
+                        },
+                        {
+                            src: require("./res/characters/jaxon/sprite_jaxon1_f_laughing.png"),
+                            alt: "Laughing",
+                            code: "Laughing"
+                        },
+                        {
+                            src: require("./res/characters/jaxon/sprite_jaxon1_f_normal.png"),
+                            alt: "Normal",
+                            code: "normal"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            NAME: "Kapitan",
+            code: "kapitan",
+            POSES: [
+                {
+                    POSE_NUMBER: 1,
+                    BODIES: [
+                        {
+                            src: require("./res/characters/kapitan/sprite_kapitan1_b_normal.png"),
+                            alt: "Normal",
+                            code: "normal"
+                        }
+                    ],
+                    FACES: [
+                        {
+                            src: require("./res/characters/kapitan/sprite_kapitan1_f_normal.png"),
+                            alt: "Normal",
+                            code: "normal"
+                        },
+                        {
+                            src: require("./res/characters/kapitan/sprite_kapitan1_f_smiling.png"),
+                            alt: "Smile",
+                            code: "smile"
+                        },
+                        {
+                            src: require("./res/characters/kapitan/sprite_kapitan1_f_talking.png"),
+                            alt: "Talking",
+                            code: "talking"
+                        },
+                        {
+                            src: require("./res/characters/kapitan/sprite_kapitan1_f_worried.png"),
+                            alt: "Worried",
+                            code: "Worried"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             NAME: "Main Character",
             code: "mc",
             POSES: [
@@ -47,9 +199,9 @@ var images = {
                             code: "curious"
                         },
                         {
-                            src: require("./res/characters/mc/sprite_mc1_f_embarassed.png"),
-                            alt: "Embarassed",
-                            code: "embarassed"
+                            src: require("./res/characters/mc/sprite_mc1_f_embarrassed.png"),
+                            alt: "Embarrassed",
+                            code: "embarrassed"
                         },
                         {
                             src: require("./res/characters/mc/sprite_mc1_f_nervous.png"),
@@ -62,14 +214,14 @@ var images = {
                             code: "normal"
                         },
                         {
+                            src: require("./res/characters/mc/sprite_mc1_f_serious.png"),
+                            alt: "Serious",
+                            code: "serious"
+                        },
+                        {
                             src: require("./res/characters/mc/sprite_mc1_f_sleepy.png"),
                             alt: "Sleepy",
                             code: "sleepy"
-                        },
-                        {
-                            src: require("./res/characters/mc/sprite_mc1_f_smile.png"),
-                            alt: "Smile",
-                            code: "smile"
                         },
                         {
                             src: require("./res/characters/mc/sprite_mc1_f_smirk.png"),
@@ -99,19 +251,14 @@ var images = {
                             code: "thinking"
                         },
                         {
-                            src: require("./res/characters/mc/sprite_mc2_f_thinking_closed_eyes.png"),
-                            alt: "Thinking (Closed Eyes)",
-                            code: "thinking_closed_eyes"
+                            src: require("./res/characters/mc/sprite_mc2_f_thinking2.png"),
+                            alt: "Thinking2",
+                            code: "thinking2"
                         },
                         {
-                            src: require("./res/characters/mc/sprite_mc2_f_thinking_open_eyes.png"),
-                            alt: "Thinking (Open Eyes)",
-                            code: "thinking_open_eyes"
-                        },
-                        {
-                            src: require("./res/characters/mc/sprite_mc2_f_thinking_smile.png"),
-                            alt: "Thinking (Smile)",
-                            code: "thinking_smile"
+                            src: require("./res/characters/mc/sprite_mc2_f_thinking3.png"),
+                            alt: "Thinking3",
+                            code: "thinking3"
                         }
                     ]
                 }
@@ -125,24 +272,24 @@ var images = {
                     POSE_NUMBER: 1,
                     BODIES: [
                         {
-                            src: require("./res/characters/nanay/sprite_nanay1_b_casual_reminisce.png"),
-                            alt: "Casual (Reminisce)",
-                            code: "casual_reminisce"
-                        },
-                        {
                             src: require("./res/characters/nanay/sprite_nanay1_b_casual.png"),
                             alt: "Casual",
                             code: "casual"
                         },
                         {
-                            src: require("./res/characters/nanay/sprite_nanay1_b_home_arms.png"),
-                            alt: "Home (Arms)",
-                            code: "home_arms"
-                        },
-                        {
                             src: require("./res/characters/nanay/sprite_nanay1_b_home.png"),
                             alt: "Home Clothes",
                             code: "home"
+                        },
+                        {
+                            src: require("./res/characters/nanay/sprite_nanay1_b_modest.png"),
+                            alt: "Modest",
+                            code: "modest"
+                        },
+                        {
+                            src: require("./res/characters/nanay/sprite_nanay1_b_normal.png"),
+                            alt: "Normal",
+                            code: "normal"
                         }
                     ],
                     FACES: [
@@ -162,9 +309,9 @@ var images = {
                             code: "confused"
                         },
                         {
-                            src: require("./res/characters/nanay/sprite_nanay1_f_laugh.png"),
-                            alt: "Laugh",
-                            code: "laugh"
+                            src: require("./res/characters/nanay/sprite_nanay1_f_laughing.png"),
+                            alt: "Laughing",
+                            code: "laughing"
                         },
                         {
                             src: require("./res/characters/nanay/sprite_nanay1_f_normal.png"),
@@ -172,9 +319,9 @@ var images = {
                             code: "normal"
                         },
                         {
-                            src: require("./res/characters/nanay/sprite_nanay1_f_reminiscing.png"),
-                            alt: "Reminiscing",
-                            code: "reminiscing"
+                            src: require("./res/characters/nanay/sprite_nanay1_f_sad.png"),
+                            alt: "Sad",
+                            code: "sad"
                         },
                         {
                             src: require("./res/characters/nanay/sprite_nanay1_f_smile.png"),
@@ -190,6 +337,238 @@ var images = {
                             src: require("./res/characters/nanay/sprite_nanay1_f_talking2.png"),
                             alt: "Talking v2",
                             code: "talking2"
+                        }
+                    ]
+                },
+                {
+                    POSE_NUMBER: 2,
+                    BODIES: [
+                        {
+                            src: require("./res/characters/nanay/sprite_nanay2_b_casual.png"),
+                            alt: "Casual",
+                            code: "casual"
+                        }
+                    ],
+                    FACES: [
+                        {
+                            src: require("./res/characters/nanay/sprite_nanay2_f_reminiscing.png"),
+                            alt: "Reminiscing",
+                            code: "reminiscing"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            NAME: "Nene",
+            code: "nene",
+            POSES: [
+                {
+                    POSE_NUMBER: 1,
+                    BODIES: [
+                        {
+                            src: require("./res/characters/nene/sprite_nene1_b_normal.png"),
+                            alt: "Normal",
+                            code: "normal"
+                        }
+                    ],
+                    FACES: [
+                        {
+                            src: require("./res/characters/nene/sprite_nene1_f_disappointed.png"),
+                            alt: "Disappointed",
+                            code: "disappointed"
+                        },
+                        {
+                            src: require("./res/characters/nene/sprite_nene1_f_normal.png"),
+                            alt: "Normal",
+                            code: "normal"
+                        },
+                        {
+                            src: require("./res/characters/nene/sprite_nene1_f_relieved.png"),
+                            alt: "Relieved",
+                            code: "relieved"
+                        },
+                        {
+                            src: require("./res/characters/nene/sprite_nene1_f_sad.png"),
+                            alt: "Sad",
+                            code: "sad"
+                        },
+                        {
+                            src: require("./res/characters/nene/sprite_nene1_f_smiling.png"),
+                            alt: "Smiling",
+                            code: "smiling"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            NAME: "Nibble",
+            code: "nibble",
+            POSES: [
+                {
+                    POSE_NUMBER: 1,
+                    BODIES: [
+                        {
+                            src: require("./res/characters/nibble/sprite_nibble1_b_normal.png"),
+                            alt: "Normal",
+                            code: "normal"
+                        }
+                    ],
+                    FACES: [
+                        {
+                            src: require("./res/characters/nibble/sprite_nibble1_f_normal.png"),
+                            alt: "Normal",
+                            code: "normal"
+                        }
+                    ]
+                },
+                {
+                    POSE_NUMBER: 2,
+                    BODIES: [
+                        {
+                            src: require("./res/characters/nibble/sprite_nibble2_b_cute.png"),
+                            alt: "Cute",
+                            code: "cute"
+                        }
+                    ],
+                    FACES: [
+                        {
+                            src: require("./res/characters/nibble/sprite_nibble2_f_cute.png"),
+                            alt: "Cute",
+                            code: "cute"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            NAME: "Pharmacist",
+            code: "pharma",
+            POSES: [
+                {
+                    POSE_NUMBER: 1,
+                    BODIES: [
+                        {
+                            src: require("./res/characters/pharmacist/sprite_pharmacist1_b_normal.png"),
+                            alt: "Normal",
+                            code: "normal"
+                        }
+                    ],
+                    FACES: [
+                        {
+                            src: require("./res/characters/pharmacist/sprite_pharmacist1_f_normal.png"),
+                            alt: "Normal",
+                            code: "normal"
+                        },
+                        {
+                            src: require("./res/characters/pharmacist/sprite_pharmacist1_f_talking.png"),
+                            alt: "Talking",
+                            code: "talking"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            NAME: "Pork Vendor",
+            code: "pork_vendor",
+            POSES: [
+                {
+                    POSE_NUMBER: 1,
+                    BODIES: [
+                        {
+                            src: require("./res/characters/pork_vendor/sprite_pork_vendor_b_normal.png"),
+                            alt: "Normal",
+                            code: "normal"
+                        }
+                    ],
+                    FACES: [
+                        {
+                            src: require("./res/characters/pork_vendor/sprite_pork_vendor_f_disappointed.png"),
+                            alt: "Disappointed",
+                            code: "disappointed"
+                        },
+                        {
+                            src: require("./res/characters/pork_vendor/sprite_pork_vendor_f_normal.png"),
+                            alt: "Normal",
+                            code: "normal"
+                        },
+                        {
+                            src: require("./res/characters/pork_vendor/sprite_pork_vendor_f_talking.png"),
+                            alt: "Talking",
+                            code: "talking"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            NAME: "Random Person 1",
+            code: "rp1",
+            POSES: [
+                {
+                    POSE_NUMBER: 1,
+                    BODIES: [
+                        {
+                            src: require("./res/characters/random_person1/sprite_rp1_b_normal.png"),
+                            alt: "Normal",
+                            code: "normal"
+                        }
+                    ],
+                    FACES: [
+                        {
+                            src: require("./res/characters/random_person1/sprite_rp1_f_curious.png"),
+                            alt: "Curious",
+                            code: "curious"
+                        },
+                        {
+                            src: require("./res/characters/random_person1/sprite_rp1_f_normal.png"),
+                            alt: "Normal",
+                            code: "normal"
+                        },
+                        {
+                            src: require("./res/characters/random_person1/sprite_rp1_f_talking.png"),
+                            alt: "Talking",
+                            code: "talking"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            NAME: "Tatay",
+            code: "tatay",
+            POSES: [
+                {
+                    POSE_NUMBER: 1,
+                    BODIES: [
+                        {
+                            src: require("./res/characters/tatay/sprite_tatay1_b_normal.png"),
+                            alt: "Normal",
+                            code: "normal"
+                        }
+                    ],
+                    FACES: [
+                        {
+                            src: require("./res/characters/tatay/sprite_tatay1_f_confused.png"),
+                            alt: "Curious",
+                            code: "curious"
+                        },
+                        {
+                            src: require("./res/characters/tatay/sprite_tatay1_f_normal.png"),
+                            alt: "Normal",
+                            code: "normal"
+                        },
+                        {
+                            src: require("./res/characters/tatay/sprite_tatay1_f_smiling.png"),
+                            alt: "Smiling",
+                            code: "smiling"
+                        },
+                        {
+                            src: require("./res/characters/tatay/sprite_tatay1_f_talking.png"),
+                            alt: "Talking",
+                            code: "talking"
                         }
                     ]
                 }
@@ -225,9 +604,9 @@ var images = {
                             code: "compassion"
                         },
                         {
-                            src: require("./res/characters/teacher/sprite_teacher1_f_laugh.png"),
-                            alt: "Laugh",
-                            code: "laugh"
+                            src: require("./res/characters/teacher/sprite_teacher1_f_laughing.png"),
+                            alt: "Laughing",
+                            code: "laughing"
                         },
                         {
                             src: require("./res/characters/teacher/sprite_teacher1_f_talking1.png"),
@@ -244,69 +623,31 @@ var images = {
             ]
         },
         {
-            NAME: "Jaxon (Friend 1)",
-            code: "jaxon",
+            NAME: "Tito",
+            code: "tito",
             POSES: [
                 {
                     POSE_NUMBER: 1,
                     BODIES: [
                         {
-                            src: require("./res/characters/jaxon/sprite_jaxon1_b_uniform.png"),
-                            alt: "Uniform",
-                            code: "uniform"
+                            src: require("./res/characters/tito/sprite_tito1_b_normal.png"),
+                            alt: "Normal",
+                            code: "normal"
                         }
                     ],
                     FACES: [
                         {
-                            src: require("./res/characters/jaxon/sprite_jaxon1_f_compassion.png"),
-                            alt: "Compassion",
-                            code: "compassion"
-                        },
-                        {
-                            src: require("./res/characters/jaxon/sprite_jaxon1_f_confused.png"),
-                            alt: "Confused",
-                            code: "confused"
-                        },
-                        {
-                            src: require("./res/characters/jaxon/sprite_jaxon1_f_normal.png"),
-                            alt: "Normal",
-                            code: "normal"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            NAME: "Eian (Friend 2)",
-            code: "eian",
-            POSES: [
-                {
-                    POSE_NUMBER: 1,
-                    BODIES: [
-                        {
-                            src: require("./res/characters/eian/sprite_eian1_b_uniform.png"),
-                            alt: "Uniform",
-                            code: "uniform"
-                        }
-                    ],
-                    FACES: [
-                        {
-                            src: require("./res/characters/eian/sprite_eian1_f_compassion.png"),
-                            alt: "Compassion",
-                            code: "compassion"
-                        },
-                        {
-                            src: require("./res/characters/eian/sprite_eian1_f_confused.png"),
-                            alt: "Confused",
-                            code: "confused"
-                        },
-                        {
-                            src: require("./res/characters/eian/sprite_eian1_f_normal.png"),
+                            src: require("./res/characters/tito/sprite_tito1_f_normal.png"),
                             alt: "Normal",
                             code: "normal"
                         },
                         {
-                            src: require("./res/characters/eian/sprite_eian1_f_talking.png"),
+                            src: require("./res/characters/tito/sprite_tito1_f_smile.png"),
+                            alt: "Smile",
+                            code: "smile"
+                        },
+                        {
+                            src: require("./res/characters/tito/sprite_tito1_f_talking.png"),
                             alt: "Talking",
                             code: "talking"
                         }
@@ -314,44 +655,6 @@ var images = {
                 }
             ]
         },
-        {
-            NAME: "Pork Vendor",
-            code: "pork_vendor",
-            POSES: [
-                {
-                    POSE_NUMBER: 1,
-                    BODIES: [
-                        {
-                            src: require("./res/characters/pork_vendor/sprite_pork_vendor1_b_apron.png"),
-                            alt: "Apron",
-                            code: "apron"
-                        }
-                    ],
-                    FACES: [
-                        {
-                            src: require("./res/characters/pork_vendor/sprite_pork_vendor1_f_compassion.png"),
-                            alt: "Compassion",
-                            code: "compassion"
-                        },
-                        {
-                            src: require("./res/characters/pork_vendor/sprite_pork_vendor1_f_confused.png"),
-                            alt: "Confused",
-                            code: "confused"
-                        },
-                        {
-                            src: require("./res/characters/pork_vendor/sprite_pork_vendor1_f_normal.png"),
-                            alt: "Normal",
-                            code: "normal"
-                        },
-                        {
-                            src: require("./res/characters/pork_vendor/sprite_pork_vendor1_f_talking.png"),
-                            alt: "Talking",
-                            code: "talking"
-                        }
-                    ]
-                }
-            ]
-        }
     ]
 }
 
