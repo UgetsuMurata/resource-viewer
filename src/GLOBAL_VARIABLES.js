@@ -277,6 +277,11 @@ var images = {
                             code: "casual"
                         },
                         {
+                            src: require("./res/characters/nanay/sprite_nanay1_b_casual_reminisce.png"),
+                            alt: "Casual Reminisce",
+                            code: "casual_reminiscing"
+                        },
+                        {
                             src: require("./res/characters/nanay/sprite_nanay1_b_home.png"),
                             alt: "Home Clothes",
                             code: "home"
@@ -319,6 +324,11 @@ var images = {
                             code: "normal"
                         },
                         {
+                            src: require("./res/characters/nanay/sprite_nanay1_f_reminiscing.png"),
+                            alt: "Reminiscing",
+                            code: "reminiscing"
+                        },
+                        {
                             src: require("./res/characters/nanay/sprite_nanay1_f_sad.png"),
                             alt: "Sad",
                             code: "sad"
@@ -337,23 +347,6 @@ var images = {
                             src: require("./res/characters/nanay/sprite_nanay1_f_talking2.png"),
                             alt: "Talking v2",
                             code: "talking2"
-                        }
-                    ]
-                },
-                {
-                    POSE_NUMBER: 2,
-                    BODIES: [
-                        {
-                            src: require("./res/characters/nanay/sprite_nanay2_b_casual.png"),
-                            alt: "Casual",
-                            code: "casual"
-                        }
-                    ],
-                    FACES: [
-                        {
-                            src: require("./res/characters/nanay/sprite_nanay2_f_reminiscing.png"),
-                            alt: "Reminiscing",
-                            code: "reminiscing"
                         }
                     ]
                 }
