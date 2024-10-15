@@ -478,24 +478,24 @@ var images = {
                     POSE_NUMBER: 1,
                     BODIES: [
                         {
-                            src: require("./res/characters/pork_vendor/sprite_pork_vendor_b_normal.png"),
+                            src: require("./res/characters/pork_vendor/sprite_pork_vendor1_b_normal.png"),
                             alt: "Normal",
                             code: "normal"
                         }
                     ],
                     FACES: [
                         {
-                            src: require("./res/characters/pork_vendor/sprite_pork_vendor_f_disappointed.png"),
+                            src: require("./res/characters/pork_vendor/sprite_pork_vendor1_f_disappointed.png"),
                             alt: "Disappointed",
                             code: "disappointed"
                         },
                         {
-                            src: require("./res/characters/pork_vendor/sprite_pork_vendor_f_normal.png"),
+                            src: require("./res/characters/pork_vendor/sprite_pork_vendor1_f_normal.png"),
                             alt: "Normal",
                             code: "normal"
                         },
                         {
-                            src: require("./res/characters/pork_vendor/sprite_pork_vendor_f_talking.png"),
+                            src: require("./res/characters/pork_vendor/sprite_pork_vendor1_f_talking.png"),
                             alt: "Talking",
                             code: "talking"
                         }
@@ -505,7 +505,7 @@ var images = {
         },
         {
             NAME: "Random Person 1",
-            code: "rp1",
+            code: "rp",
             POSES: [
                 {
                     POSE_NUMBER: 1,
@@ -529,6 +529,34 @@ var images = {
                         },
                         {
                             src: require("./res/characters/random_person1/sprite_rp1_f_talking.png"),
+                            alt: "Talking",
+                            code: "talking"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            NAME: "Random Person 2",
+            code: "rp2",
+            POSES: [
+                {
+                    POSE_NUMBER: 1,
+                    BODIES: [
+                        {
+                            src: require("./res/characters/random_person2/sprite_rp21_b_normal.png"),
+                            alt: "Normal",
+                            code: "normal"
+                        }
+                    ],
+                    FACES: [
+                        {
+                            src: require("./res/characters/random_person2/sprite_rp21_f_normal.png"),
+                            alt: "Normal",
+                            code: "normal"
+                        },
+                        {
+                            src: require("./res/characters/random_person2/sprite_rp21_f_talking.png"),
                             alt: "Talking",
                             code: "talking"
                         }
