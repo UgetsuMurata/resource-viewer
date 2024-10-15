@@ -106,7 +106,7 @@ var images = {
                         {
                             src: require("./res/characters/jaxon/sprite_jaxon1_f_laughing.png"),
                             alt: "Laughing",
-                            code: "Laughing"
+                            code: "laughing"
                         },
                         {
                             src: require("./res/characters/jaxon/sprite_jaxon1_f_normal.png"),
